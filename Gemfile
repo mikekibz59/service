@@ -32,11 +32,11 @@ gem 'jwt'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-gem 'rack-test' ,'0.7.0'
-gem 'rspec-rails', '~> 3.7', '>= 3.7.1'
-gem 'capybara','2.15.4'
-gem 'database_cleaner'
-gem 'factory_girl', '~> 4.5'
+  gem 'rack-test' ,'0.7.0'
+  gem 'rspec-rails', '~> 3.7', '>= 3.7.1'
+  gem 'capybara','2.15.4'
+  gem 'database_cleaner'
+#gem 'factory_girl', '~> 4.5'
 end
 
 group :development do
